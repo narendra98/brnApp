@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F10848D2052523500B06536 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10848C2052523500B06536 /* HomePageViewController.swift */; };
+		3F10848F2052524A00B06536 /* ApplyLeaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10848E2052524A00B06536 /* ApplyLeaveViewController.swift */; };
+		3F1084912052525B00B06536 /* CreateRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1084902052525B00B06536 /* CreateRequestViewController.swift */; };
+		3F1084932052527100B06536 /* AppSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1084922052527100B06536 /* AppSearchViewController.swift */; };
+		3F1084952052528A00B06536 /* StatusUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1084942052528A00B06536 /* StatusUpdateViewController.swift */; };
+		3F108499205252B600B06536 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F108498205252B600B06536 /* SWRevealViewController.m */; };
+		3F10849B2052553000B06536 /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10849A2052553000B06536 /* TableTableViewController.swift */; };
+		3F52B6D02051044F00F70E0B /* SignInPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F52B6CF2051044F00F70E0B /* SignInPageViewController.swift */; };
+		3F52B6D220510AAF00F70E0B /* iPhone 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F52B6D120510AAE00F70E0B /* iPhone 8.png */; };
+		3F52B6D620510C3C00F70E0B /* mainlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F52B6D520510C3C00F70E0B /* mainlogo.png */; };
+		3F52B6D820513D0A00F70E0B /* SignUpPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F52B6D720513D0A00F70E0B /* SignUpPageViewController.swift */; };
+		3F52B6DA20513D2600F70E0B /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F52B6D920513D2600F70E0B /* ForgotPasswordViewController.swift */; };
+		3F757905204FEBC200AE34A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F757904204FEBC200AE34A4 /* AppDelegate.swift */; };
+		3F75790A204FEBC200AE34A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F757908204FEBC200AE34A4 /* Main.storyboard */; };
+		3F75790C204FEBC200AE34A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F75790B204FEBC200AE34A4 /* Assets.xcassets */; };
+		3F75790F204FEBC200AE34A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F75790D204FEBC200AE34A4 /* LaunchScreen.storyboard */; };
+		3F75791A204FEBC300AE34A4 /* BRNAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F757919204FEBC300AE34A4 /* BRNAppTests.swift */; };
+		3F757925204FEBC300AE34A4 /* BRNAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F757924204FEBC300AE34A4 /* BRNAppUITests.swift */; };
+		3FF90B1720528E210020FF29 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF90B1620528E210020FF29 /* user.png */; };
+		3FF90B19205295470020FF29 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF90B18205295470020FF29 /* menu.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F757916204FEBC200AE34A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7578F9204FEBC200AE34A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F757900204FEBC200AE34A4;
+			remoteInfo = BRNApp;
+		};
+		3F757921204FEBC300AE34A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7578F9204FEBC200AE34A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F757900204FEBC200AE34A4;
+			remoteInfo = BRNApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F10848C2052523500B06536 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		3F10848E2052524A00B06536 /* ApplyLeaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyLeaveViewController.swift; sourceTree = "<group>"; };
+		3F1084902052525B00B06536 /* CreateRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRequestViewController.swift; sourceTree = "<group>"; };
+		3F1084922052527100B06536 /* AppSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSearchViewController.swift; sourceTree = "<group>"; };
+		3F1084942052528A00B06536 /* StatusUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusUpdateViewController.swift; sourceTree = "<group>"; };
+		3F108496205252B500B06536 /* BRNApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BRNApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F108497205252B600B06536 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		3F108498205252B600B06536 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		3F10849A2052553000B06536 /* TableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
+		3F52B6CF2051044F00F70E0B /* SignInPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPageViewController.swift; sourceTree = "<group>"; };
+		3F52B6D120510AAE00F70E0B /* iPhone 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8.png"; sourceTree = "<group>"; };
+		3F52B6D520510C3C00F70E0B /* mainlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainlogo.png; sourceTree = "<group>"; };
+		3F52B6D720513D0A00F70E0B /* SignUpPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPageViewController.swift; sourceTree = "<group>"; };
+		3F52B6D920513D2600F70E0B /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		3F757901204FEBC200AE34A4 /* BRNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F757904204FEBC200AE34A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F757909204FEBC200AE34A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F75790B204FEBC200AE34A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F75790E204FEBC200AE34A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F757910204FEBC200AE34A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F757915204FEBC200AE34A4 /* BRNAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRNAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F757919204FEBC300AE34A4 /* BRNAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRNAppTests.swift; sourceTree = "<group>"; };
+		3F75791B204FEBC300AE34A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F757920204FEBC300AE34A4 /* BRNAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRNAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F757924204FEBC300AE34A4 /* BRNAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRNAppUITests.swift; sourceTree = "<group>"; };
+		3F757926204FEBC300AE34A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF90B1620528E210020FF29 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		3FF90B18205295470020FF29 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7578FE204FEBC200AE34A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F757912204FEBC200AE34A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F75791D204FEBC300AE34A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7578F8204FEBC200AE34A4 = {
+			isa = PBXGroup;
+			children = (
+				3F757903204FEBC200AE34A4 /* BRNApp */,
+				3F757918204FEBC300AE34A4 /* BRNAppTests */,
+				3F757923204FEBC300AE34A4 /* BRNAppUITests */,
+				3F757902204FEBC200AE34A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F757902204FEBC200AE34A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F757901204FEBC200AE34A4 /* BRNApp.app */,
+				3F757915204FEBC200AE34A4 /* BRNAppTests.xctest */,
+				3F757920204FEBC300AE34A4 /* BRNAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F757903204FEBC200AE34A4 /* BRNApp */ = {
+			isa = PBXGroup;
+			children = (
+				3F757904204FEBC200AE34A4 /* AppDelegate.swift */,
+				3F757908204FEBC200AE34A4 /* Main.storyboard */,
+				3F10849A2052553000B06536 /* TableTableViewController.swift */,
+				3F1084942052528A00B06536 /* StatusUpdateViewController.swift */,
+				3F10848C2052523500B06536 /* HomePageViewController.swift */,
+				3F10848E2052524A00B06536 /* ApplyLeaveViewController.swift */,
+				3F1084902052525B00B06536 /* CreateRequestViewController.swift */,
+				3F1084922052527100B06536 /* AppSearchViewController.swift */,
+				3F52B6D720513D0A00F70E0B /* SignUpPageViewController.swift */,
+				3F52B6D920513D2600F70E0B /* ForgotPasswordViewController.swift */,
+				3F52B6CF2051044F00F70E0B /* SignInPageViewController.swift */,
+				3F108497205252B600B06536 /* SWRevealViewController.h */,
+				3F108498205252B600B06536 /* SWRevealViewController.m */,
+				3FF90B1620528E210020FF29 /* user.png */,
+				3FF90B18205295470020FF29 /* menu.png */,
+				3F75790B204FEBC200AE34A4 /* Assets.xcassets */,
+				3F75790D204FEBC200AE34A4 /* LaunchScreen.storyboard */,
+				3F757910204FEBC200AE34A4 /* Info.plist */,
+				3F52B6D120510AAE00F70E0B /* iPhone 8.png */,
+				3F52B6D520510C3C00F70E0B /* mainlogo.png */,
+				3F108496205252B500B06536 /* BRNApp-Bridging-Header.h */,
+			);
+			path = BRNApp;
+			sourceTree = "<group>";
+		};
+		3F757918204FEBC300AE34A4 /* BRNAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F757919204FEBC300AE34A4 /* BRNAppTests.swift */,
+				3F75791B204FEBC300AE34A4 /* Info.plist */,
+			);
+			path = BRNAppTests;
+			sourceTree = "<group>";
+		};
+		3F757923204FEBC300AE34A4 /* BRNAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F757924204FEBC300AE34A4 /* BRNAppUITests.swift */,
+				3F757926204FEBC300AE34A4 /* Info.plist */,
+			);
+			path = BRNAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F757900204FEBC200AE34A4 /* BRNApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F757929204FEBC300AE34A4 /* Build configuration list for PBXNativeTarget "BRNApp" */;
+			buildPhases = (
+				3F7578FD204FEBC200AE34A4 /* Sources */,
+				3F7578FE204FEBC200AE34A4 /* Frameworks */,
+				3F7578FF204FEBC200AE34A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRNApp;
+			productName = BRNApp;
+			productReference = 3F757901204FEBC200AE34A4 /* BRNApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F757914204FEBC200AE34A4 /* BRNAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F75792C204FEBC300AE34A4 /* Build configuration list for PBXNativeTarget "BRNAppTests" */;
+			buildPhases = (
+				3F757911204FEBC200AE34A4 /* Sources */,
+				3F757912204FEBC200AE34A4 /* Frameworks */,
+				3F757913204FEBC200AE34A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F757917204FEBC200AE34A4 /* PBXTargetDependency */,
+			);
+			name = BRNAppTests;
+			productName = BRNAppTests;
+			productReference = 3F757915204FEBC200AE34A4 /* BRNAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F75791F204FEBC300AE34A4 /* BRNAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F75792F204FEBC300AE34A4 /* Build configuration list for PBXNativeTarget "BRNAppUITests" */;
+			buildPhases = (
+				3F75791C204FEBC300AE34A4 /* Sources */,
+				3F75791D204FEBC300AE34A4 /* Frameworks */,
+				3F75791E204FEBC300AE34A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F757922204FEBC300AE34A4 /* PBXTargetDependency */,
+			);
+			name = BRNAppUITests;
+			productName = BRNAppUITests;
+			productReference = 3F757920204FEBC300AE34A4 /* BRNAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7578F9204FEBC200AE34A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = RAJKUMAR;
+				TargetAttributes = {
+					3F757900204FEBC200AE34A4 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					3F757914204FEBC200AE34A4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F757900204FEBC200AE34A4;
+					};
+					3F75791F204FEBC300AE34A4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F757900204FEBC200AE34A4;
+					};
+				};
+			};
+			buildConfigurationList = 3F7578FC204FEBC200AE34A4 /* Build configuration list for PBXProject "BRNApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F7578F8204FEBC200AE34A4;
+			productRefGroup = 3F757902204FEBC200AE34A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F757900204FEBC200AE34A4 /* BRNApp */,
+				3F757914204FEBC200AE34A4 /* BRNAppTests */,
+				3F75791F204FEBC300AE34A4 /* BRNAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7578FF204FEBC200AE34A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F52B6D620510C3C00F70E0B /* mainlogo.png in Resources */,
+				3F75790F204FEBC200AE34A4 /* LaunchScreen.storyboard in Resources */,
+				3FF90B1720528E210020FF29 /* user.png in Resources */,
+				3F75790C204FEBC200AE34A4 /* Assets.xcassets in Resources */,
+				3FF90B19205295470020FF29 /* menu.png in Resources */,
+				3F52B6D220510AAF00F70E0B /* iPhone 8.png in Resources */,
+				3F75790A204FEBC200AE34A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F757913204FEBC200AE34A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F75791E204FEBC300AE34A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7578FD204FEBC200AE34A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F52B6DA20513D2600F70E0B /* ForgotPasswordViewController.swift in Sources */,
+				3F1084912052525B00B06536 /* CreateRequestViewController.swift in Sources */,
+				3F10848F2052524A00B06536 /* ApplyLeaveViewController.swift in Sources */,
+				3F52B6D820513D0A00F70E0B /* SignUpPageViewController.swift in Sources */,
+				3F10849B2052553000B06536 /* TableTableViewController.swift in Sources */,
+				3F757905204FEBC200AE34A4 /* AppDelegate.swift in Sources */,
+				3F1084952052528A00B06536 /* StatusUpdateViewController.swift in Sources */,
+				3F10848D2052523500B06536 /* HomePageViewController.swift in Sources */,
+				3F108499205252B600B06536 /* SWRevealViewController.m in Sources */,
+				3F1084932052527100B06536 /* AppSearchViewController.swift in Sources */,
+				3F52B6D02051044F00F70E0B /* SignInPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F757911204FEBC200AE34A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F75791A204FEBC300AE34A4 /* BRNAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F75791C204FEBC300AE34A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F757925204FEBC300AE34A4 /* BRNAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F757917204FEBC200AE34A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F757900204FEBC200AE34A4 /* BRNApp */;
+			targetProxy = 3F757916204FEBC200AE34A4 /* PBXContainerItemProxy */;
+		};
+		3F757922204FEBC300AE34A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F757900204FEBC200AE34A4 /* BRNApp */;
+			targetProxy = 3F757921204FEBC300AE34A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F757908204FEBC200AE34A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F757909204FEBC200AE34A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F75790D204FEBC200AE34A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F75790E204FEBC200AE34A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F757927204FEBC300AE34A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F757928204FEBC300AE34A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F75792A204FEBC300AE34A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BRNApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brn.BRNApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BRNApp/BRNApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F75792B204FEBC300AE34A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BRNApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brn.BRNApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BRNApp/BRNApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F75792D204FEBC300AE34A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BRNAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brn.BRNAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BRNApp.app/BRNApp";
+			};
+			name = Debug;
+		};
+		3F75792E204FEBC300AE34A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BRNAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brn.BRNAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BRNApp.app/BRNApp";
+			};
+			name = Release;
+		};
+		3F757930204FEBC300AE34A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BRNAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brn.BRNAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BRNApp;
+			};
+			name = Debug;
+		};
+		3F757931204FEBC300AE34A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BRNAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brn.BRNAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BRNApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7578FC204FEBC200AE34A4 /* Build configuration list for PBXProject "BRNApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F757927204FEBC300AE34A4 /* Debug */,
+				3F757928204FEBC300AE34A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F757929204FEBC300AE34A4 /* Build configuration list for PBXNativeTarget "BRNApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F75792A204FEBC300AE34A4 /* Debug */,
+				3F75792B204FEBC300AE34A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F75792C204FEBC300AE34A4 /* Build configuration list for PBXNativeTarget "BRNAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F75792D204FEBC300AE34A4 /* Debug */,
+				3F75792E204FEBC300AE34A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F75792F204FEBC300AE34A4 /* Build configuration list for PBXNativeTarget "BRNAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F757930204FEBC300AE34A4 /* Debug */,
+				3F757931204FEBC300AE34A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7578F9204FEBC200AE34A4 /* Project object */;
+}
